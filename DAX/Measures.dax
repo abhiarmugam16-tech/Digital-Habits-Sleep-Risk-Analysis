@@ -1,0 +1,79 @@
+-- Model table assumed: sleep_health_dataset
+-- Validate field names and category values against the imported CSV.
+
+Total Records =
+COUNT(sleep_health_dataset[person_id])
+
+Average Sleep Duration =
+AVERAGE(sleep_health_dataset[sleep_duration_hrs])
+
+Average Sleep Quality =
+AVERAGE(sleep_health_dataset[sleep_quality_score])
+
+Average Stress Score =
+AVERAGE(sleep_health_dataset[stress_score])
+
+Average Cognitive Performance =
+AVERAGE(sleep_health_dataset[cognitive_performance_score])
+
+High Risk Records =
+CALCULATE(
+    [Total Records],
+    sleep_health_dataset[sleep_disorder_risk]
+        IN {"Moderate", "Severe"}
+)
+
+-- Format this measure as Percentage in Power BI.
+High Risk Percentage =
+DIVIDE(
+    [High Risk Records],
+    [Total Records],
+    0
+)
+
+Rested Records =
+CALCULATE(
+    [Total Records],
+    sleep_health_dataset[felt_rested] = 1
+)
+
+-- Format this measure as Percentage in Power BI.
+Rested Percentage =
+DIVIDE(
+    [Rested Records],
+    [Total Records],
+    0
+)
+
+-- Optional calculated column: screen-time category.
+Screen Time Category =
+SWITCH(
+    TRUE(),
+    sleep_health_dataset[screen_time_before_bed_mins] < 30, "Under 30 min",
+    sleep_health_dataset[screen_time_before_bed_mins] < 60, "30-59 min",
+    "60+ min"
+)
+
+-- Optional calculated column: age group.
+Age Group =
+SWITCH(
+    TRUE(),
+    sleep_health_dataset[age] < 30, "18-29",
+    sleep_health_dataset[age] < 40, "30-39",
+    sleep_health_dataset[age] < 50, "40-49",
+    sleep_health_dataset[age] < 60, "50-59",
+    "60+"
+)
+
+-- Optional measure: an analyst-defined lifestyle indicator count.
+-- Review/adjust thresholds before treating this as a business definition.
+Lifestyle Risk Factor Count =
+SUMX(
+    sleep_health_dataset,
+    IF(sleep_health_dataset[screen_time_before_bed_mins] >= 60, 1, 0)
+    + IF(sleep_health_dataset[caffeine_mg_before_bed] > 0, 1, 0)
+    + IF(sleep_health_dataset[alcohol_units_before_bed] > 0, 1, 0)
+    + IF(sleep_health_dataset[steps_that_day] < 5000, 1, 0)
+)
+
+-- This is not a clinically validated risk score.
