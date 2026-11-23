@@ -2,9 +2,9 @@
 
 ## Dashboard Layout Preview
 
-See [Dashboard Layout Preview](../Images/Dashboard_Preview.jpg).
+See [Dashboard Layout Preview](../Images/Dashboard_Layout.svg).
 
-## Visuals in the Supplied Screenshot
+## Visuals in the Supplied Dashboard Visual
 
 1. Sleep Risk Category Distribution
 2. Occupational Stress Analysis
