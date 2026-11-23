@@ -148,18 +148,6 @@ Digital-Habits-Sleep-Risk-Analysis/
 
 The raw dataset and editable Power BI `.pbix` file are not included in this initial update because they were not supplied as repository-ready files. See the relevant folder notes for instructions.
 
-## How to Use This Repository
-
-1. Review the dashboard preview in [Images](Images/Dashboard_Layout.svg).
-2. Read the business problem and questions in [Documentation](Documentation/Business_Problem_and_Questions.md).
-3. Review KPI definitions and example DAX in [DAX](DAX/Measures.dax).
-4. Obtain the source dataset from Kaggle, subject to its license and terms.
-5. Add your final Power BI `.pbix` file to the Dashboard folder when available.
-
-## Author
-
-**Abhishek A**  
-GitHub: [@abhiarmugam16-tech](https://github.com/abhiarmugam16-tech)
 
 ---
 *Project category: Data Analytics & Business Intelligence*
