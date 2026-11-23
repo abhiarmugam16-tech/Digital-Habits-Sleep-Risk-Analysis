@@ -130,7 +130,7 @@ These are dataset-specific descriptive statistics. Validate the category logic, 
 Digital-Habits-Sleep-Risk-Analysis/
 ├── README.md
 ├── Images/
-│   └── Dashboard_Preview.jpg
+│   └── Dashboard_Layout.svg
 ├── Dashboard/
 │   └── README.md
 ├── Dataset/
@@ -150,7 +150,7 @@ The raw dataset and editable Power BI `.pbix` file are not included in this init
 
 ## How to Use This Repository
 
-1. Review the dashboard preview in [Images](Images/Dashboard_Preview.jpg).
+1. Review the dashboard preview in [Images](Images/Dashboard_Layout.svg).
 2. Read the business problem and questions in [Documentation](Documentation/Business_Problem_and_Questions.md).
 3. Review KPI definitions and example DAX in [DAX](DAX/Measures.dax).
 4. Obtain the source dataset from Kaggle, subject to its license and terms.
