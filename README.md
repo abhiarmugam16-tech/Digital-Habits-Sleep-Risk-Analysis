@@ -2,7 +2,7 @@
 
 **Power BI | Data Analytics | Healthcare & Lifestyle Analytics**
 
-![Dashboard preview](Images/Dashboard_Preview.jpg)
+![Dashboard preview](Images/Dashboard_Layout.svg)
 
 ## Project Overview
 
@@ -12,7 +12,7 @@ This end-to-end analytics project explores sleep patterns, lifestyle indicators,
 
 ## Dashboard at a Glance
 
-The supplied dashboard screenshot displays these headline metrics:
+The supplied dashboard visual displays these headline metrics:
 
 | KPI | Displayed value |
 |---|---:|
