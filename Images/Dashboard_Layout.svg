@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0b3448"/><stop offset="1" stop-color="#153a62"/></linearGradient>
+  <linearGradient id="head" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#119da4"/><stop offset="1" stop-color="#276c91"/></linearGradient>
+  <style>
+    .t{font-family:Arial,Helvetica,sans-serif;fill:#102238}
+    .white{fill:#f6fbff;font-family:Arial,Helvetica,sans-serif}
+    .muted{fill:#b8d6e0;font-family:Arial,Helvetica,sans-serif}
+    .card{fill:#d7f3e3;stroke:#77c9c8;stroke-width:2}
+    .panel{fill:#2b8997;stroke:#7ed1d0;stroke-width:2}
+    .bar{fill:#c18b4b}
+  </style>
+</defs>
+<rect width="1200" height="675" fill="url(#bg)"/>
+<rect x="0" y="0" width="1200" height="62" fill="url(#head)"/>
+<text x="600" y="40" text-anchor="middle" class="white" font-size="29" font-weight="700">Digital Habits &amp; Sleep Risk Analysis</text>
+<!-- KPI cards -->
+<g>
+  <rect x="12" y="76" width="226" height="94" rx="12" class="card"/><rect x="12" y="76" width="226" height="30" rx="12" class="bar"/><text x="125" y="97" text-anchor="middle" class="t" font-size="15" font-weight="700">Total Count</text><text x="125" y="146" text-anchor="middle" class="t" font-size="27" font-weight="700">100K</text>
+  <rect x="250" y="76" width="226" height="94" rx="12" class="card"/><rect x="250" y="76" width="226" height="30" rx="12" class="bar"/><text x="363" y="97" text-anchor="middle" class="t" font-size="14" font-weight="700">Average Sleep Quality</text><text x="363" y="146" text-anchor="middle" class="t" font-size="27" font-weight="700">4.87</text>
+  <rect x="488" y="76" width="226" height="94" rx="12" class="card"/><rect x="488" y="76" width="226" height="30" rx="12" class="bar"/><text x="601" y="97" text-anchor="middle" class="t" font-size="14" font-weight="700">Average Stress Score</text><text x="601" y="146" text-anchor="middle" class="t" font-size="27" font-weight="700">5.73</text>
+  <rect x="726" y="76" width="226" height="94" rx="12" class="card"/><rect x="726" y="76" width="226" height="30" rx="12" class="bar"/><text x="839" y="97" text-anchor="middle" class="t" font-size="13" font-weight="700">Average Cognitive Performance</text><text x="839" y="146" text-anchor="middle" class="t" font-size="27" font-weight="700">59.23</text>
+  <rect x="964" y="76" width="224" height="94" rx="12" class="card"/><rect x="964" y="76" width="224" height="30" rx="12" class="bar"/><text x="1076" y="97" text-anchor="middle" class="t" font-size="15" font-weight="700">Average Sleep Hours</text><text x="1076" y="146" text-anchor="middle" class="t" font-size="27" font-weight="700">6.42</text>
+</g>
+<!-- panel 1 risk distribution -->
+<rect x="150" y="190" width="330" height="210" rx="22" class="panel"/>
+<text x="315" y="218" text-anchor="middle" class="white" font-size="17" font-weight="700">Sleep Risk Category Distribution</text>
+<circle cx="280" cy="309" r="63" fill="#172d9b"/><path d="M280 309 L280 246 A63 63 0 1 1 220 326 Z" fill="#1689ea"/><path d="M280 309 L220 326 A63 63 0 0 1 234 270 Z" fill="#ff8746"/><path d="M280 309 L234 270 A63 63 0 0 1 280 246 Z" fill="#9b2a9b"/>
+<g class="white" font-size="12"><text x="365" y="292">Healthy</text><text x="365" y="314">Mild</text><text x="365" y="336">Moderate</text><text x="365" y="358">Severe</text></g>
+<g><circle cx="352" cy="288" r="5" fill="#1689ea"/><circle cx="352" cy="310" r="5" fill="#172d9b"/><circle cx="352" cy="332" r="5" fill="#ff8746"/><circle cx="352" cy="354" r="5" fill="#9b2a9b"/></g>
+<!-- panel 2 occupational -->
+<rect x="496" y="190" width="330" height="210" rx="22" class="panel"/>
+<text x="661" y="218" text-anchor="middle" class="white" font-size="17" font-weight="700">Occupational Stress Analysis</text>
+<g class="white" font-size="12"><text x="530" y="260">Nurse</text><text x="530" y="291">Doctor</text><text x="530" y="322">Manager</text><text x="530" y="353">Student</text><text x="530" y="384">Teacher</text></g>
+<g fill="#322b39" stroke="#101d2b" stroke-width="1"><rect x="590" y="247" width="185" height="12"/><rect x="590" y="278" width="180" height="12"/><rect x="590" y="309" width="153" height="12"/><rect x="590" y="340" width="150" height="12"/><rect x="590" y="371" width="147" height="12"/></g>
+<!-- panel 3 quality & stress -->
+<rect x="842" y="190" width="346" height="210" rx="22" class="panel"/>
+<text x="1015" y="218" text-anchor="middle" class="white" font-size="16" font-weight="700">Sleep Quality by Stress &amp; Night Awakenings</text>
+<path d="M875 360 C915 350 937 344 961 320 S1000 270 1020 275 S1060 310 1090 333 S1140 355 1160 359" fill="none" stroke="#f04d4d" stroke-width="4"/>
+<path d="M875 365 C930 365 980 357 1020 360 S1110 367 1160 366" fill="none" stroke="#a5ee35" stroke-width="4"/>
+<path d="M875 355 C925 335 960 296 1000 258 S1050 263 1080 298 S1130 352 1160 361" fill="none" stroke="#d9e8eb" stroke-width="4" stroke-dasharray="5 4"/>
+<g class="white" font-size="11"><text x="875" y="385">Low</text><text x="1015" y="385">Stress score</text><text x="1140" y="385">High</text></g>
+<!-- bottom row -->
+<rect x="12" y="418" width="376" height="240" rx="22" class="panel"/>
+<text x="200" y="446" text-anchor="middle" class="white" font-size="17" font-weight="700">Cognitive Performance by Sleep Risk</text>
+<g fill="#c18b4b" stroke="#162d43" stroke-width="1"><rect x="75" y="502" width="46" height="120"/><rect x="155" y="540" width="46" height="82"/><rect x="235" y="572" width="46" height="50"/><rect x="315" y="593" width="46" height="29"/></g>
+<g class="white" font-size="12" text-anchor="middle"><text x="98" y="642">Healthy</text><text x="178" y="642">Mild</text><text x="258" y="642">Moderate</text><text x="338" y="642">Severe</text></g>
+<rect x="402" y="418" width="408" height="240" rx="22" class="panel"/>
+<text x="606" y="446" text-anchor="middle" class="white" font-size="17" font-weight="700">Lifestyle Risk Analysis by Age Group</text>
+<path d="M440 610 L470 540 L500 510 L530 535 L560 490 L590 522 L620 505 L650 540 L680 565 L710 600 L740 625 L775 638" fill="none" stroke="#ff5148" stroke-width="5"/>
+<path d="M440 610 L470 540 L500 510 L530 535 L560 490 L590 522 L620 505 L650 540 L680 565 L710 600 L740 625 L775 638 L775 642 L440 642 Z" fill="#2a2350" opacity=".55"/>
+<g class="white" font-size="12"><text x="440" y="650">20</text><text x="595" y="650">Age</text><text x="760" y="650">70</text></g>
+<rect x="824" y="418" width="364" height="240" rx="22" class="panel"/>
+<text x="1006" y="446" text-anchor="middle" class="white" font-size="17" font-weight="700">Screen Time Impact on Sleep Health</text>
+<g fill="#19c8a5" stroke="#102b3b" stroke-width="2"><rect x="890" y="510" width="42" height="125"/><rect x="1000" y="520" width="42" height="115"/><rect x="1110" y="530" width="42" height="105"/></g>
+<g fill="#152e3d" stroke="#101d2b" stroke-width="2"><rect x="936" y="542" width="32" height="93"/><rect x="1046" y="550" width="32" height="85"/><rect x="1156" y="555" width="20" height="80"/></g>
+<g class="white" font-size="12" text-anchor="middle"><text x="930" y="650">Low</text><text x="1042" y="650">Moderate</text><text x="1144" y="650">High</text></g>
+</svg>
