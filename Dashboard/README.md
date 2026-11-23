@@ -1,10 +1,10 @@
 # Power BI Dashboard
 
-## Dashboard Layout Preview
+## Final Dashboard
 
-See [Dashboard Layout Preview](../Images/Dashboard_Layout.svg).
+See [Dashboard Layout Preview](../Images/Digital-Habits-Sleep-Risk-Analysis.jpg).
 
-## Visuals in the Supplied Dashboard Visual
+## Visuals in the Final Dashboard Screenshot
 
 1. Sleep Risk Category Distribution
 2. Occupational Stress Analysis
