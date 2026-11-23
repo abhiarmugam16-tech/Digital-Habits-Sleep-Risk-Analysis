@@ -2,7 +2,7 @@
 
 **Power BI | Data Analytics | Healthcare & Lifestyle Analytics**
 
-![Dashboard preview](Images/Dashboard_Layout.svg)
+![Final Power BI dashboard](Images/Digital-Habits-Sleep-Risk-Analysis.jpg)
 
 ## Project Overview
 
@@ -130,7 +130,7 @@ These are dataset-specific descriptive statistics. Validate the category logic, 
 Digital-Habits-Sleep-Risk-Analysis/
 ├── README.md
 ├── Images/
-│   └── Dashboard_Layout.svg
+│   └── Digital-Habits-Sleep-Risk-Analysis.jpg
 ├── Dashboard/
 │   └── README.md
 ├── Dataset/
