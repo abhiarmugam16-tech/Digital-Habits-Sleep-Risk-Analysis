@@ -2,7 +2,7 @@
 
 ## Final Dashboard
 
-See [Dashboard Layout Preview](../Images/Digital-Habits-Sleep-Risk-Analysis.jpg).
+See [Final Dashboard Screenshot](../Images/Digital-Habits-Sleep-Risk-Analysis.webp).
 
 ## Visuals in the Final Dashboard Screenshot
 
