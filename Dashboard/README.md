@@ -1,8 +1,8 @@
 # Power BI Dashboard
 
-## Dashboard Preview
+## Dashboard Layout Preview
 
-See [Dashboard Preview](../Images/Dashboard_Preview.jpg).
+See [Dashboard Layout Preview](../Images/Dashboard_Preview.jpg).
 
 ## Visuals in the Supplied Screenshot
 
